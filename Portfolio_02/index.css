@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+.head {
+  background-color: rgba(195, 233, 255, 0.57);
+  margin-top: 0;
+  padding: 0;
+  height: 260px;
+}
+
+body {
+  margin: 0;
+  background-color: #fff;
+  font-family: YuGothic, "游ゴシック体", "Yu Gothic", "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "MS Ｐゴシック", "MS PGothic", sans-serif;
+}
+h1 {
+  animation-name: fadeInAnime;
+  animation-fill-mode: backwards;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-delay: 0.5s;
+  animation-direction: normal;
+
+  margin: 0;
+  font-family: 'Roboto';
+  font-size: 200%;
+  padding-top: 55px;
+  padding-left: 110px;
+  font-family: YuGothic, "游ゴシック体", "Yu Gothic", "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "MS Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+@keyframes fadeInAnime{
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+nav {
+  width: 100%;
+  height: 80px;
+
+}
+
+.detail {
+  text-align: right;
+  padding-top: 80px;
+  padding-right: 160px;
+  animation-name: fadeInAnime;
+  animation-fill-mode: backwards;
+  animation-duration: 2.5s;
+  animation-timing-function: ease;
+  animation-delay: 0.5s;
+  animation-direction: normal;
+}
+
+.video {
+  padding-top: 160px;
+  text-align: center;
+}
+
+li {
+  display:inline;
+
+}
+
+a {
+  color:#B18B55;
+  text-decoration: none;
+  margin-right: 35px;
+}
+
+a:hover {
+  color: #1e1e1e;
+}
+
+h3 {
+  padding-bottom: 20px;
+}
+
+.night {
+  margin-top: 70px;
+}
+
+p.line {
+  font-size: 14px;
+  /* 行間を指定 */
+  line-height: 2.5;
+  letter-spacing: 0.15em;
+}
+
+img.photo {
+  overflow: hidden;
+  width: 35%;
+  height :35%;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  /* 画像の枠線 */
+  border: 10px solid rgba(192,192,192, .7);
+  /* borderの角を丸くする */
+  border-radius: 8px;
+  /* borderだけを透過する */
+  background-clip: padding-box;
+  transition: 0.5s;
+}
+
+img.photo:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.beer {
+  margin-bottom: 25px;
+  margin-top: 120px;
+}
+
+.quiz {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.foot {
+  text-align: center;
+  margin-top: 30px;
+}
+
+
+
+
+/* about_me.html */
+
+
+.profilee {
+  text-align: center;
+  padding-top: 160px;
+  padding-bottom: 70px;
+}
+
+.pro{ 
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  /* 文字間隔 */
+  line-height: 55px;
+}
+
+dt {
+  float: left;
+  width: 25%;
+}
+
+dd {
+  width: 75%;
+  padding: 0;
+  margin-left: 230px;
+}
+
+/* MyPhotos.html */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.photolist {
+  padding: 50vh;
+  padding-top: 25vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+}
+
+.popup {
+  list-style: none;
+  width: 180px;
+}
